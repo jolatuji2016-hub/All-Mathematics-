@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Mathematics — Standard form</title>
+<style>
+body{font-family:Arial,Helvetica,sans-serif;max-width:900px;margin:0 auto;padding:16px;background:#f4f7fb;color:#172033;line-height:1.5}
+header,form,.panel{background:white;padding:18px;border:1px solid #d7deea;border-radius:12px;margin-bottom:16px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:12px}
+label.field{display:block;font-weight:700}input[type=text]{width:100%;padding:10px;border:1px solid #aeb9ca;border-radius:7px;margin-top:5px;box-sizing:border-box}
+.question{border:1px solid #d7deea;border-radius:10px;padding:14px;margin:14px 0;background:#fff}.question legend{font-weight:700;padding:0 5px}
+.option{display:flex;align-items:flex-start;gap:8px;padding:7px;border-radius:6px;cursor:pointer}.option:hover{background:#eef5ff}.option input{margin-top:5px}
+button{padding:12px 16px;border:0;border-radius:8px;font-size:1rem;font-weight:700;cursor:pointer;margin:5px 6px 5px 0}.primary{background:#175cd3;color:white}.secondary{background:#e8edf5;color:#172033}
+#result{white-space:pre-wrap}.correct{color:#166534}.incorrect{color:#b42318}.small{color:#536176;font-size:.92rem}
+@media print{button,.no-print{display:none}body{background:white}header,form,.panel,.question{border:1px solid #aaa;box-shadow:none}}
+</style></head><body>
+<header><h1>Learning Without Borders</h1><h2>Mathematics: Standard form</h2>
+<p><strong>Class:</strong> Year 6 &nbsp; <strong>Questions:</strong> 10</p><p>Choose the correct answer for each question.</p></header>
+<form id="worksheet"><section class="panel"><h3>Student details</h3><div class="grid">
+<label class="field">Student name *<input type="text" id="student_name" required></label>
+<label class="field">Class / arm<input type="text" id="student_class" value="Year 6" required></label>
+</div></section>
+<fieldset class="question"><legend>1. Express 5,000 in standard form.</legend><label class="option"><input type="radio" name="q1" value="A"> <span><strong>A.</strong> 5 × 10²</span></label><label class="option"><input type="radio" name="q1" value="B"> <span><strong>B.</strong> 5 × 10³</span></label><label class="option"><input type="radio" name="q1" value="C"> <span><strong>C.</strong> 5 × 10⁴</span></label><label class="option"><input type="radio" name="q1" value="D"> <span><strong>D.</strong> 5 × 10⁵</span></label></fieldset>
+<fieldset class="question"><legend>2. Express 45,000 in standard form.</legend><label class="option"><input type="radio" name="q2" value="A"> <span><strong>A.</strong> 4.5 × 10³</span></label><label class="option"><input type="radio" name="q2" value="B"> <span><strong>B.</strong> 4.5 × 10⁴</span></label><label class="option"><input type="radio" name="q2" value="C"> <span><strong>C.</strong> 4.5 × 10⁵</span></label><label class="option"><input type="radio" name="q2" value="D"> <span><strong>D.</strong> 4.5 × 10²</span></label></fieldset>
+<fieldset class="question"><legend>3. Express 720,000 in standard form.</legend><label class="option"><input type="radio" name="q3" value="A"> <span><strong>A.</strong> 7.2 × 10⁴</span></label><label class="option"><input type="radio" name="q3" value="B"> <span><strong>B.</strong> 7.2 × 10⁵</span></label><label class="option"><input type="radio" name="q3" value="C"> <span><strong>C.</strong> 7.2 × 10⁶</span></label><label class="option"><input type="radio" name="q3" value="D"> <span><strong>D.</strong> 7.2 × 10³</span></label></fieldset>
+<fieldset class="question"><legend>4. Express 3,600,000 in standard form.</legend><label class="option"><input type="radio" name="q4" value="A"> <span><strong>A.</strong> 3.6 × 10⁴</span></label><label class="option"><input type="radio" name="q4" value="B"> <span><strong>B.</strong> 3.6 × 10⁵</span></label><label class="option"><input type="radio" name="q4" value="C"> <span><strong>C.</strong> 3.6 × 10⁶</span></label><label class="option"><input type="radio" name="q4" value="D"> <span><strong>D.</strong> 3.6 × 10⁷</span></label></fieldset>
+<fieldset class="question"><legend>5. Express 0.0045 in standard form.</legend><label class="option"><input type="radio" name="q5" value="A"> <span><strong>A.</strong> 4.5 × 10⁻²</span></label><label class="option"><input type="radio" name="q5" value="B"> <span><strong>B.</strong> 4.5 × 10⁻³</span></label><label class="option"><input type="radio" name="q5" value="C"> <span><strong>C.</strong> 4.5 × 10⁻⁴</span></label><label class="option"><input type="radio" name="q5" value="D"> <span><strong>D.</strong> 4.5 × 10⁻⁵</span></label></fieldset>
+<fieldset class="question"><legend>6. Express 0.00068 in standard form.</legend><label class="option"><input type="radio" name="q6" value="A"> <span><strong>A.</strong> 6.8 × 10⁻³</span></label><label class="option"><input type="radio" name="q6" value="B"> <span><strong>B.</strong> 6.8 × 10⁻⁴</span></label><label class="option"><input type="radio" name="q6" value="C"> <span><strong>C.</strong> 6.8 × 10⁻⁵</span></label><label class="option"><input type="radio" name="q6" value="D"> <span><strong>D.</strong> 6.8 × 10⁻⁶</span></label></fieldset>
+<fieldset class="question"><legend>7. Express 0.0000072 in standard form.</legend><label class="option"><input type="radio" name="q7" value="A"> <span><strong>A.</strong> 7.2 × 10⁻⁴</span></label><label class="option"><input type="radio" name="q7" value="B"> <span><strong>B.</strong> 7.2 × 10⁻⁵</span></label><label class="option"><input type="radio" name="q7" value="C"> <span><strong>C.</strong> 7.2 × 10⁻⁶</span></label><label class="option"><input type="radio" name="q7" value="D"> <span><strong>D.</strong> 7.2 × 10⁻⁷</span></label></fieldset>
+<fieldset class="question"><legend>8. Express 82,500,000 in standard form.</legend><label class="option"><input type="radio" name="q8" value="A"> <span><strong>A.</strong> 8.25 × 10⁵</span></label><label class="option"><input type="radio" name="q8" value="B"> <span><strong>B.</strong> 8.25 × 10⁶</span></label><label class="option"><input type="radio" name="q8" value="C"> <span><strong>C.</strong> 8.25 × 10⁷</span></label><label class="option"><input type="radio" name="q8" value="D"> <span><strong>D.</strong> 8.25 × 10⁸</span></label></fieldset>
+<fieldset class="question"><legend>9. Express 0.000093 in standard form.</legend><label class="option"><input type="radio" name="q9" value="A"> <span><strong>A.</strong> 9.3 × 10⁻³</span></label><label class="option"><input type="radio" name="q9" value="B"> <span><strong>B.</strong> 9.3 × 10⁻⁴</span></label><label class="option"><input type="radio" name="q9" value="C"> <span><strong>C.</strong> 9.3 × 10⁻⁵</span></label><label class="option"><input type="radio" name="q9" value="D"> <span><strong>D.</strong> 9.3 × 10⁻⁶</span></label></fieldset>
+<fieldset class="question"><legend>10. Express 6,450,000,000 in standard form.</legend><label class="option"><input type="radio" name="q10" value="A"> <span><strong>A.</strong> 6.45 × 10⁷</span></label><label class="option"><input type="radio" name="q10" value="B"> <span><strong>B.</strong> 6.45 × 10⁸</span></label><label class="option"><input type="radio" name="q10" value="C"> <span><strong>C.</strong> 6.45 × 10⁹</span></label><label class="option"><input type="radio" name="q10" value="D"> <span><strong>D.</strong> 6.45 × 10¹⁰</span></label></fieldset>
+<div class="no-print"><button class="primary" type="submit">Submit answers and see score</button><button class="secondary" type="button" onclick="window.print()">Print worksheet</button></div>
+</form>
+<section id="result" class="panel" aria-live="polite" hidden></section>
+<p class="small">Please submit only once unless your teacher instructs otherwise. Your result may be sent to your teacher for marking records.</p>
+<script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+<script>
+const ANSWERS = {"1":"B","2":"B","3":"B","4":"C","5":"B","6":"B","7":"C","8":"C","9":"C","10":"C"};
+const META = {"school":"Learning Without Borders","subject":"Mathematics","className":"Year 6","topic":"Standard form","instructions":"Choose the correct answer for each question.","passMark":70,"publicKey":"JD6I_4czDlm39KpcO","serviceId":"service_a3gbno7","templateId":"template_9oxrolw"};
+const TOTAL = 10;
+if (META.publicKey && window.emailjs) { try { emailjs.init({publicKey: META.publicKey}); } catch(e) {} }
+document.getElementById('worksheet').addEventListener('submit', async function(event) {
+  event.preventDefault();
+  const name = document.getElementById('student_name').value.trim();
+  const studentClass = document.getElementById('student_class').value.trim();
+  if (!name || !studentClass) { alert('Please enter your name and class.'); return; }
+  let score = 0, answered = 0, lines = [];
+  for (let i=1; i<=TOTAL; i++) {
+    const chosen = document.querySelector('input[name="q'+i+'"]:checked');
+    const val = chosen ? chosen.value : '';
+    if (val) answered++;
+    if (val === ANSWERS[i]) score++;
+    lines.push('Q'+i+': Student answer: '+(val || 'Not answered')+' | Correct answer: '+ANSWERS[i]);
+  }
+  const percentage = Math.round((score / TOTAL) * 100);
+  const result = document.getElementById('result');
+  result.hidden = false;
+  result.innerHTML = '<h2>Worksheet result</h2><p><strong>Student:</strong> '+escapeText(name)+'</p><p><strong>Score:</strong> '+score+' / '+TOTAL+'</p><p><strong>Percentage:</strong> '+percentage+'%</p><p><strong>Status:</strong> '+(percentage >= META.passMark ? 'Pass' : 'Keep practising')+'</p><h3>Answer review</h3>'+lines.map((line,i)=>'<p class="'+((((document.querySelector('input[name=q'+(i+1)+']:checked') || {}).value)===ANSWERS[i+1])?'correct':'incorrect')+'">'+escapeText(line)+'</p>').join('');
+  result.scrollIntoView({behavior:'smooth'});
+  if (META.publicKey && META.serviceId && META.templateId && window.emailjs && typeof emailjs.send === 'function') {
+    try {
+      await emailjs.send(META.serviceId, META.templateId, {
+        student_name: name,
+        student_class: studentClass,
+        subject: META.subject,
+        topic: META.topic,
+        score: score+' / '+TOTAL,
+        percentage: percentage+'%',
+        answers: lines.join('\n')
+      });
+      const notice = document.createElement('p');
+      notice.className = 'correct';
+      notice.textContent = 'Your result has been submitted successfully.';
+      result.appendChild(notice);
+    } catch (err) {
+      const notice = document.createElement('p');
+      notice.className = 'incorrect';
+      notice.textContent = 'Your score is shown above, but the email submission did not succeed. Please tell your teacher.';
+      result.appendChild(notice);
+    }
+  } else {
+    const notice = document.createElement('p');
+    notice.className = 'incorrect';
+    notice.textContent = 'Your score is shown above, but email could not be sent because EmailJS is not configured or could not load.';
+    result.appendChild(notice);
+  }
+});
+function escapeText(value) {
+  return String(value).replace(/[&<>"']/g, ch => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[ch]));
+}
+</script></body></html>
